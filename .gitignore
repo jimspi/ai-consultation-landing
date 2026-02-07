@@ -17,6 +17,11 @@ dist-ssr
 server/.env
 server/accessCodes.json
 
+# Video files
+public/videos/**/*.mp4
+public/videos/**/*.webm
+public/videos/**/*.mov
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
