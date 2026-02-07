@@ -23,7 +23,7 @@ const courseCatalog = {
             id: 'lesson-1-1',
             title: 'What Are AI Agents?',
             type: 'mixed',
-            videoUrl: 'https://pub-d16fa3c02c4e4c9f9d6e3a1f2a4eb705.r2.dev/ai-agents/lesson-1-1.mp4',
+            videoUrl: 'https://pub-d16fa3c02c4e4c9f9d6e3a1f2a4eb705.r2.dev/AI%20Agents.mp4',
             content: `
 <h2>Understanding AI Agents</h2>
 <p>AI agents are autonomous systems that can perceive their environment, make decisions, and take actions to achieve specific goals. Unlike simple chatbots that respond to prompts, agents can:</p>
@@ -403,7 +403,7 @@ export default config;</code></pre>
             id: 'pe-lesson-1-1',
             title: 'Anatomy of a Great Prompt',
             type: 'mixed',
-            videoUrl: 'https://pub-d16fa3c02c4e4c9f9d6e3a1f2a4eb705.r2.dev/prompt-engineering/pe-lesson-1-1.mp4',
+            videoUrl: 'https://pub-2023e319714a4a969e3abf7af3ae08d8.r2.dev/CC%20Ai%20agent.mp4',
             content: `
 <h2>What Makes a Prompt Effective?</h2>
 <p>A well-crafted prompt has four key elements that guide the AI toward the output you want:</p>
@@ -692,7 +692,7 @@ const rubric = {
             id: 'sa-lesson-1-1',
             title: 'Writing Custom Instructions',
             type: 'mixed',
-            videoUrl: 'https://pub-d16fa3c02c4e4c9f9d6e3a1f2a4eb705.r2.dev/steering-ai/sa-lesson-1-1.mp4',
+            videoUrl: 'https://pub-c0e473615b2b4a5e98803daf4fb44e11.r2.dev/code.mp4',
             content: `
 <h2>Custom Instructions</h2>
 <p>Custom instructions are persistent rules that shape every response the AI generates. They're the most powerful tool for getting consistent, predictable behavior.</p>
