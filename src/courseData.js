@@ -1,3 +1,7 @@
+// Video convention: place .mp4 files in public/videos/{courseId}/
+// then set videoUrl to "/videos/{courseId}/filename.mp4"
+// Example: public/videos/ai-agents/lesson-1-1.mp4 → videoUrl: "/videos/ai-agents/lesson-1-1.mp4"
+
 const courseCatalog = {
   "ai-agents": {
     id: "ai-agents",
@@ -19,7 +23,7 @@ const courseCatalog = {
             id: 'lesson-1-1',
             title: 'What Are AI Agents?',
             type: 'mixed',
-            videoUrl: '',
+            videoUrl: '/videos/ai-agents/lesson-1-1.mp4',
             content: `
 <h2>Understanding AI Agents</h2>
 <p>AI agents are autonomous systems that can perceive their environment, make decisions, and take actions to achieve specific goals. Unlike simple chatbots that respond to prompts, agents can:</p>
@@ -398,8 +402,8 @@ export default config;</code></pre>
           {
             id: 'pe-lesson-1-1',
             title: 'Anatomy of a Great Prompt',
-            type: 'text',
-            videoUrl: '',
+            type: 'mixed',
+            videoUrl: '/videos/prompt-engineering/pe-lesson-1-1.mp4',
             content: `
 <h2>What Makes a Prompt Effective?</h2>
 <p>A well-crafted prompt has four key elements that guide the AI toward the output you want:</p>
@@ -687,8 +691,8 @@ const rubric = {
           {
             id: 'sa-lesson-1-1',
             title: 'Writing Custom Instructions',
-            type: 'text',
-            videoUrl: '',
+            type: 'mixed',
+            videoUrl: '/videos/steering-ai/sa-lesson-1-1.mp4',
             content: `
 <h2>Custom Instructions</h2>
 <p>Custom instructions are persistent rules that shape every response the AI generates. They're the most powerful tool for getting consistent, predictable behavior.</p>

@@ -159,12 +159,15 @@ export default function CourseDashboard() {
                 <div className="mb-8">
                   {currentLesson.videoUrl ? (
                     <div className="aspect-video bg-black rounded">
-                      <iframe
-                        src={currentLesson.videoUrl}
+                      <video
+                        key={currentLesson.videoUrl}
+                        controls
+                        preload="metadata"
                         className="w-full h-full rounded"
-                        allowFullScreen
-                        title={currentLesson.title}
-                      />
+                      >
+                        <source src={currentLesson.videoUrl} type="video/mp4" />
+                        Your browser does not support the video element.
+                      </video>
                     </div>
                   ) : (
                     <div className="aspect-video bg-gray-900 rounded flex items-center justify-center">
